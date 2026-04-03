@@ -1,1 +1,26 @@
+# Secrets
 .env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Test artifacts
+*.db
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.next/
+
+# OS
+.DS_Store
+
+# Docker volumes (if ever mounted locally)
+postgres_data/
+redis_data/
